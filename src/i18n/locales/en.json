@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "home": "Home",
+    "labs": "Lab Works",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Virtual Chemistry Laboratory",
+    "subtitle": "Explore chemistry experiments safely from your browser",
+    "cta": "Explore Labs"
+  },
+  "home": {
+    "whatIsTitle": "What is a Virtual Lab?",
+    "whatIsText": "A virtual laboratory is an interactive simulation that allows students to perform chemistry experiments online without physical equipment. Explore, experiment, and learn chemistry from anywhere — anytime.",
+    "howItWorks": "How It Works",
+    "step1": "Choose a Lab",
+    "step1Desc": "Browse our list of laboratory works and select the experiment you want to study.",
+    "step2": "Read the Theory",
+    "step2Desc": "Follow the methodology, understand the objectives, and review the materials needed.",
+    "step3": "Run the Simulation",
+    "step3Desc": "Use the guided conclusion section to record your observations and results.",
+    "statsStudents": "Students",
+    "statsLabs": "Lab Works",
+    "statsFree": "Free",
+    "whyTitle": "Why Virtual Labs?",
+    "why1": "Safe — no real chemicals needed",
+    "why2": "Anytime access from any device",
+    "why3": "Fully interactive simulations",
+    "why4": "Completely free for all students",
+    "labsPreviewTitle": "Our Lab Works"
+  },
+  "labs": {
+    "pageTitle": "Laboratory Works",
+    "pageSubtitle": "Choose an experiment to begin",
+    "startLab": "Start Lab",
+    "titration": {
+      "title": "Acid-Base Titration",
+      "desc": "Determine the concentration of an unknown acid using a standard NaOH solution.",
+      "objective": "To determine the concentration of an unknown acid (HCl) solution using a standard NaOH solution through the process of neutralization.",
+      "materials": ["Burette (50 mL)", "Conical flask (250 mL)", "Pipette (25 mL)", "NaOH solution (0.1 M)", "HCl solution (unknown concentration)", "Phenolphthalein indicator", "Distilled water", "Retort stand and clamp"],
+      "methodology": [
+        "Rinse the burette with distilled water, then with NaOH solution. Fill with NaOH up to the 0 mL mark.",
+        "Using a pipette, transfer 25 mL of HCl solution into the conical flask.",
+        "Add 2–3 drops of phenolphthalein indicator to the flask.",
+        "Slowly add NaOH from the burette while swirling the flask continuously.",
+        "Stop when the solution changes from colourless to light pink and the colour persists for 30 seconds.",
+        "Record the volume of NaOH used. Repeat for three consistent readings."
+      ],
+      "safety": "Wear safety goggles and gloves. Handle acids and bases carefully. Avoid skin contact.",
+      "results": "The solution turns light pink at the equivalence point. Using M₁V₁ = M₂V₂, the concentration of HCl can be calculated.",
+      "conclusion": "At the equivalence point, moles of acid = moles of base. The solution turns pink because phenolphthalein is colourless in acid and pink in base. Equation: HCl + NaOH → NaCl + H₂O.",
+      "takeaways": [
+        "Neutralization reactions produce salt and water.",
+        "The equivalence point is where moles of acid = moles of base.",
+        "Indicators change colour at different pH ranges."
+      ]
+    },
+    "electrolysis": {
+      "title": "Electrolysis of Water",
+      "desc": "Demonstrate the decomposition of water into hydrogen and oxygen using electrical energy.",
+      "objective": "To demonstrate that water is composed of hydrogen and oxygen by splitting it using direct electric current (electrolysis) and to verify the 2:1 volume ratio of H₂ to O₂.",
+      "materials": ["Water with dissolved Na₂SO₄ (for conductivity)", "DC power supply (6–9V)", "Two carbon or platinum electrodes", "Electrolytic cell or beaker", "Connecting wires", "Inverted test tubes for gas collection"],
+      "methodology": [
+        "Dissolve a small amount of sodium sulfate (Na₂SO₄) in distilled water to make it conductive.",
+        "Fill the electrolytic cell with the prepared solution.",
+        "Place the electrodes inside and connect them to the positive (+) and negative (−) terminals of the DC supply.",
+        "Observe bubbles forming at both electrodes.",
+        "Collect the gases using inverted test tubes filled with the solution placed over each electrode.",
+        "Measure and compare the volume of gas collected at each electrode after 5 minutes.",
+        "Test the gases: a glowing splint relights in oxygen; hydrogen burns with a squeaky pop."
+      ],
+      "safety": "Use low voltage (6–9V only). Keep away from open flames — hydrogen is flammable. Do not touch the electrodes while the power is on.",
+      "results": "Hydrogen gas (H₂) collects at the cathode (negative electrode). Oxygen (O₂) collects at the anode (positive electrode). The volume ratio H₂:O₂ is approximately 2:1.",
+      "conclusion": "Electrolysis uses electrical energy to split water into its component elements. The 2:1 ratio confirms the molecular formula H₂O. Decomposition equation: 2H₂O → 2H₂ + O₂.",
+      "takeaways": [
+        "Electrolysis uses electrical energy to drive non-spontaneous chemical reactions.",
+        "Hydrogen gas forms at the cathode (negative), oxygen at the anode (positive).",
+        "The decomposition equation: 2H₂O → 2H₂ + O₂"
+      ]
+    },
+    "flame-test": {
+      "title": "Flame Test",
+      "desc": "Identify metal ions by the characteristic colours they produce in a flame.",
+      "objective": "To identify metal ions in unknown compounds by observing the characteristic colours they produce when introduced to a flame.",
+      "materials": ["Bunsen burner", "Nichrome wire loop", "Dilute hydrochloric acid (HCl) for cleaning", "Lithium chloride (LiCl) solution", "Sodium chloride (NaCl) solution", "Potassium chloride (KCl) solution", "Copper(II) chloride (CuCl₂) solution", "Calcium chloride (CaCl₂) solution", "Safety goggles and heat-resistant gloves"],
+      "methodology": [
+        "Clean the nichrome wire by dipping it into dilute HCl and heating it in the flame until no colour is produced.",
+        "Dip the clean wire into the first metal salt solution.",
+        "Hold the wire in the hottest part of the Bunsen burner flame.",
+        "Observe and record the flame colour carefully.",
+        "Clean the wire with HCl and heat until colourless between each test.",
+        "Repeat steps 2–5 for all metal salt solutions."
+      ],
+      "safety": "Tie back hair. Use heat-resistant gloves. Keep flammable materials away from the burner. Never point the burner at others.",
+      "results": "Each metal produces a unique flame colour: Lithium=Crimson Red, Sodium=Bright Yellow, Potassium=Lilac/Purple, Copper=Blue-Green, Calcium=Brick Red.",
+      "conclusion": "Metal ions emit characteristic wavelengths of light when excited by heat energy. Electrons absorb heat energy and release it as visible light. The colour depends on the energy difference between electron orbitals.",
+      "takeaways": [
+        "Metal ions emit characteristic wavelengths of light when excited by heat energy.",
+        "The colour depends on the energy difference between electron orbitals.",
+        "Flame tests are a quick qualitative method for metal ion identification."
+      ]
+    }
+  },
+  "lab": {
+    "breadcrumbHome": "Home",
+    "breadcrumbLabs": "Labs",
+    "tabs": {
+      "theory": "Theory",
+      "simulator": "Simulator",
+      "video": "Video"
+    },
+    "objective": "Objective",
+    "materials": "Materials Needed",
+    "methodology": "Methodology",
+    "safety": "Safety Notes",
+    "results": "Expected Results",
+    "conclusions": "Conclusion",
+    "keyTakeaways": "Key Takeaways",
+    "nextLab": "Next Lab",
+    "reset": "Reset",
+    "startSimulation": "Start Simulation",
+    "stopSimulation": "Stop"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "description": "A free virtual chemistry laboratory for school students."
+  }
+}
