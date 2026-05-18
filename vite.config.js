@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/chemistry_lab/',
+  base: process.env.GITHUB_ACTIONS ? '/chemistry_lab/' : '/',
 })
